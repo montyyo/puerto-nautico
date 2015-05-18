@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=m\ e\ a\ p
+comment0.target=EmbarcacionAMotor(java.lang.String,\ float,\ int,\ int)
+comment0.text=\r\n\ contructor\ de\ la\ clase\ embarcacion\ a\ motor\r\n\ @param\ String\ m\ \ \ matricula\ del\ barco\r\n\ @param\ float\ e\ eslora\ del\ barco\ en\ metros\r\n\ @param\ int\ a\ a\u00F1o\ de\ fabricacion\r\n\ @param\ int\ p\ potencia\ del\ barco\ CV\r\n
+comment1.params=
+comment1.target=int\ getPotencia()
+comment1.text=\r\n\ metodo\ para\ devolver\ la\ potencia\ de\ la\ embarcacion\r\n\ @return\ int\ potencia\r\n
+comment2.params=
+comment2.target=int\ coeficienteBernua()
+comment2.text=\r\n\ metodo\ para\ devolver\ los\ datos\ del\ coeficiente\ de\ bernua\r\n\ @return\ int\ potencia\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ metodo\ que\ devuelve\ los\ datos\ de\ la\ embarcacion\r\n\ @return\ String\ datos\ de\ la\ embarcacion\r\n
+numComments=4

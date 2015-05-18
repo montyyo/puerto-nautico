@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=m\ e\ a\ n
+comment0.target=Velero(java.lang.String,\ float,\ int,\ int)
+comment0.text=\r\n\ constructor\ de\ la\ clase\ velero\r\n\ @param\ int\ n\ numero\ de\ mastiles\r\n\ @param\ String\ m\ \ \ matricula\ del\ barco\r\n\ @param\ float\ e\ eslora\ del\ barco\ en\ metros\r\n\ @param\ int\ a\ a\u00F1o\ de\ fabricacion\r\n
+comment1.params=
+comment1.target=int\ getNumeroDeMastiles()
+comment1.text=\r\n\ metodo\ que\ devuelve\ el\ numero\ de\ mastiles\ del\ velero\r\n\ @return\ int\ numero\ de\ mastiles\ \r\n
+comment2.params=
+comment2.target=int\ coeficienteBernua()
+comment2.text=\r\n\ metodo\ para\ calculas\ el\ coeficiente\ de\ bernua\ numero\ de\ mastiles\ para\ su\ uso\ en\ la\ clase\ alquiler\r\n\ @return\ int\ coeficiente\ de\ bernua\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ metodo\ para\ devolver\ los\ datos\ del\ barco\r\n\ \r\n\ @return\ String\ datos\ del\ barco\r\n
+numComments=4

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=m\ e\ a
+comment0.target=Barco(java.lang.String,\ float,\ int)
+comment0.text=\r\n\ contructor\ de\ la\ clase\ barco\r\n\ @param\ String\ m\ \ \ matricula\ del\ barco\r\n\ @param\ float\ e\ eslora\ del\ barco\ en\ metros\r\n\ @param\ int\ a\ a\u00F1o\ de\ fabricacion\r\n
+comment1.params=
+comment1.target=java.lang.String\ getMatricula()
+comment1.text=\r\n\ metodo\ que\ devuelve\ la\ matricula\ del\ barco\r\n\ @return\ String\ matricula\ del\ barco\r\n
+comment2.params=
+comment2.target=float\ getEslora()
+comment2.text=\r\n\ metodo\ que\ devuelve\ los\ metros\ de\ eslora\ del\ barco\r\n\ @return\ float\ metros\ de\ eslora\r\n
+comment3.params=
+comment3.target=int\ getAnoFabricacion()
+comment3.text=\r\n\ devuelve\ el\ a\u00F1o\ de\ fabricacion\ del\ barco\r\n\ @return\ int\ a\u00F1o\ de\ fabricacion\r\n
+comment4.params=
+comment4.target=int\ coeficienteBernua()
+comment4.text=\r\n\ metodo\ para\ calcular\ el\ coeficiente\ de\ bernua\r\n\ @return\ int\ coeficiente\ de\ bernua\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ metodo\ para\ devover\ los\ datos\ del\ barco\r\n\ @return\ String\ datos\ del\ barco\r\n
+numComments=6
