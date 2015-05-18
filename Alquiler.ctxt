@@ -1,2 +1,20 @@
 #BlueJ class context
-numComments=0
+comment0.params=b\ c\ d
+comment0.target=Alquiler(Barco,\ Cliente,\ int)
+comment0.text=\r\n\ Constructor\ de\ la\ clase\ alquiler\r\n\ @param\ b\ barco\ \r\n\ @param\ c\ cliente\r\n\ @param\ d\ dias\ de\ alquiler\r\n
+comment1.params=
+comment1.target=Barco\ getBarco()
+comment1.text=\r\n\ metodo\ para\ devolver\ el\ objeto\ barco\r\n\ @return\ Barco\ objeto\ barco\r\n
+comment2.params=
+comment2.target=Cliente\ getCliente()
+comment2.text=\r\n\ metodo\ para\ devolver\ el\ objeto\ cliente\r\n\ @return\ cliente\ objeto\ cliente\r\n
+comment3.params=
+comment3.target=int\ getNumeroDiasAlquiler()
+comment3.text=\r\n\ metodo\ que\ devuelve\ el\ numero\ de\ dias\ del\ alquiler\r\n\ @return\ int\ numero\ de\ dias\r\n
+comment4.params=
+comment4.target=float\ getCoste()
+comment4.text=\r\n\ metodo\ para\ calcular\ al\ coste\ del\ alquiler\r\n\ @return\ float\ coste\ del\ alquiler\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ metodo\ para\ devolver\ los\ datos\ del\ alquiler\ \r\n\ @return\ String\ datos\ del\ alquiler\r\n
+numComments=6
