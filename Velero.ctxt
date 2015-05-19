@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=m\ e\ a\ n
-comment0.target=Velero(java.lang.String,\ float,\ int,\ int)
+comment0.params=e\ m\ a\ n
+comment0.target=Velero(float,\ java.lang.String,\ int,\ int)
 comment0.text=\r\n\ constructor\ de\ la\ clase\ velero\r\n\ @param\ int\ n\ numero\ de\ mastiles\r\n\ @param\ String\ m\ \ \ matricula\ del\ barco\r\n\ @param\ float\ e\ eslora\ del\ barco\ en\ metros\r\n\ @param\ int\ a\ a\u00F1o\ de\ fabricacion\r\n
 comment1.params=
 comment1.target=int\ getNumeroDeMastiles()

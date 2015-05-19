@@ -17,9 +17,9 @@ public class EmbarcacionAMotor extends Barco
      * @param int a año de fabricacion
      * @param int p potencia del barco CV
      */
-    public EmbarcacionAMotor(String m , float e, int a , int p)
+    public EmbarcacionAMotor( float e,String m , int a , int p)
     {
-        super(m,e,a);
+        super(e,m,a);
         potencia=p;
     }
     

@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=m\ e\ a\ p\ c
-comment0.target=Yate(java.lang.String,\ float,\ int,\ int,\ int)
+comment0.params=e\ m\ a\ p\ c
+comment0.target=Yate(float,\ java.lang.String,\ int,\ int,\ int)
 comment0.text=\r\n\ contructor\ de\ la\ clase\ yate\r\n\ @param\ String\ m\ \ \ matricula\ del\ barco\r\n\ @param\ float\ e\ eslora\ del\ barco\ en\ metros\r\n\ @param\ int\ a\ a\u00F1o\ de\ fabricacion\r\n\ @param\ int\ p\ potencia\ del\ barco\ CV\r\n\ @param\ int\ c\ numero\ de\ camarotes\ del\ yate\r\n
 comment1.params=
 comment1.target=int\ getNumeroCamarotes()

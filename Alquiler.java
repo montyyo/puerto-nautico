@@ -73,11 +73,15 @@ public class Alquiler
      */
     public String toString()
     {
-        return "Datos del cliente: \n" + cliente.toString()+
-               "\n ****************************************"+
-               "\n Datos del barco: \n" + barco.toString()+
-               "\n ****************************************"+
-               "\n dias de alquiler: " + numeroDeDias+
-               "\n coste del alquiler: " + getCoste() + " €";
+        return  "Datos del alquiler"+
+                 "\n ====================================="+
+        
+                 "\nDatos del cliente: \n" + cliente.toString()+
+                 
+                 "\n Datos del barco: \n" + barco.toString()+
+              
+                 "\n dias de alquiler: " + numeroDeDias+
+                 "\n coste del alquiler: " + getCoste() + " €"+
+                 "\n ";
     }
 }

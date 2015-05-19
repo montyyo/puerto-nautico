@@ -18,9 +18,9 @@ public class Yate extends EmbarcacionAMotor
      * @param int p potencia del barco CV
      * @param int c numero de camarotes del yate
      */
-    public Yate(String m, float e , int a , int p , int c)
+    public Yate( float e ,String m, int a , int p , int c)
     {
-        super(m,e,a,p);
+        super(e,m,a,p);
         numeroCamarotes=c;
     }
     

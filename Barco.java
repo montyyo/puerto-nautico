@@ -19,7 +19,7 @@ public class Barco
      * @param float e eslora del barco en metros
      * @param int a año de fabricacion
      */
-    public Barco(String m , float e, int a)
+    public Barco( float e,String m , int a)
     {
         matricula=m;
         eslora=e;

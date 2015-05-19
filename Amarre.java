@@ -1,33 +1,100 @@
 
 /**
- * Write a description of class Amarre here.
+ * clase amarre
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Eduardo , Marco 
+ * @version 1- 18/5/2015
  */
 public class Amarre
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    //atributo que representa un objeto alquiler
+    private Alquiler alquiler;
+    //atributo que representa la posicion del amarre
+    private int posicion;
+    
     /**
-     * Constructor for objects of class Amarre
-     */
-    public Amarre()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
+     * contructor de la clase alquiler
+     * @param p posicion del amarre
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
+    public Amarre (int p)
     {
-        // put your code here
-        return x + y;
+        alquiler = null;
+        posicion  = p;
+    }
+    
+    /**
+     * metodo para devolver el numero de amarre
+     * @return int numero de amarre
+     */
+    public int getNumeroAmarre()
+    {
+        return posicion;
+    }
+    
+    /**
+     * metodo para desocupar un amarre
+     * 
+     */
+    public void desocupar()
+    {
+        alquiler=null;
+    }
+    
+    /**
+     * metodo para saber si esta disponible el amarre
+     * @return boolean true si esta desocupado y false si esta ocupado
+     */
+    public boolean disponible()
+    {
+        boolean disponible = true;
+        if(alquiler != null)
+        {
+            disponible = false;
+        }
+        
+        return disponible;
+    }
+    
+    /**
+     * metodo para ocupar un amarre
+     */
+    public void ocupar(Alquiler a)
+    {
+        if(disponible()==true)
+        {
+            alquiler= a;
+        }
+        else
+        {
+            System.out.println(" Lo sentimos el amarre esta ocupado");
+        }
+    }
+    
+    /**
+     * metodo para devolver el precio del alquiler
+     * @return float precio del alquiler
+     */
+    public float precioAlquilerActual()
+    {
+        return alquiler.getCoste();
+    }
+    
+    /**
+     * metodo para devolver los datos del amarre
+     * @return String datos del amarre
+     */
+    public String toString()
+    {
+        String datos="";
+       if(disponible()==true || alquiler==null)
+       {
+           datos="amarre vacio";
+        }
+        else
+        {
+            datos=alquiler.toString();
+        }
+        return   datos;
     }
 }

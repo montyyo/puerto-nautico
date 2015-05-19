@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=m\ e\ a
-comment0.target=Barco(java.lang.String,\ float,\ int)
+comment0.params=e\ m\ a
+comment0.target=Barco(float,\ java.lang.String,\ int)
 comment0.text=\r\n\ contructor\ de\ la\ clase\ barco\r\n\ @param\ String\ m\ \ \ matricula\ del\ barco\r\n\ @param\ float\ e\ eslora\ del\ barco\ en\ metros\r\n\ @param\ int\ a\ a\u00F1o\ de\ fabricacion\r\n
 comment1.params=
 comment1.target=java.lang.String\ getMatricula()

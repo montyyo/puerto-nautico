@@ -17,9 +17,9 @@ public class Velero extends Barco
      * @param float e eslora del barco en metros
      * @param int a año de fabricacion
      */
-    public Velero(String m , float e, int a, int n)
+    public Velero( float e,String m , int a, int n)
     {
-        super(m,e,a);
+        super(e,m,a);
         numeroDeMastiles=n;
     }
     
